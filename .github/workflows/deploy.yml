@@ -2,22 +2,22 @@ name: Deploy Flutter Web to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # or master
+    branches: [ main ]  # or 'master'
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write  # Required for gh-pages deployment
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.16.0'  # Use latest stable
+          flutter-version: '3.16.0'  # Fixes Dart SDK mismatch
 
       - run: flutter pub get
-      - run: flutter build web
+      - run: flutter build web --release
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
