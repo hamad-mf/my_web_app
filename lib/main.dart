@@ -92,10 +92,10 @@ class HomePage extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: 48, fontWeight: FontWeight.bold)),
                           const SizedBox(height: 8),
-                          const Text("Flutter Developeree",
+                          const Text("Flutter Developer",
                               style: TextStyle(
                                   fontSize: 24,
-                                  color: Colors.black,
+                                  color: Colors.blueAccent,
                                   fontWeight: FontWeight.w500)),
                           const SizedBox(height: 24),
                           const Text(
@@ -185,12 +185,12 @@ class HomePage extends StatelessWidget {
                   childAspectRatio: 1.5,
                   children: const [
                     ProjectCard(
-                      title: "E-Commerce App",
+                      title: "Medicart",
                       description: "A modern e-commerce application",
                       technologies: ["Flutter", "Firebase", "Provider"],
                     ),
                     ProjectCard(
-                      title: "Task Manager",
+                      title: "Real Chat",
                       description: "A productivity app for managing tasks",
                       technologies: ["Flutter", "SQLite", "Bloc"],
                     ),
