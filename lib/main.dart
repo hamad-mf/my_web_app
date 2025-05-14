@@ -92,7 +92,7 @@ class HomePage extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: 48, fontWeight: FontWeight.bold)),
                           const SizedBox(height: 8),
-                          const Text("Flutter Developer",
+                          const Text("Flutter Developeree",
                               style: TextStyle(
                                   fontSize: 24,
                                   color: Colors.black,
