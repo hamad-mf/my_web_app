@@ -72450,7 +72450,7 @@ A.a18.prototype={
 $1(a){return B.B3},
 $S:446}
 A.EW.prototype={
-J(a){var s,r,q,p,o=null,n=t.p,m=A.CK(A.b([new A.c8("Home",new A.Xt(),o),new A.c8("About",new A.Xu(a),o),new A.c8("Skills",new A.Xv(a),o),new A.c8("Projects",new A.Xw(a),o),new A.c8("Contact",new A.Xx(a),o)],n),o,B.Q4),l=A.b([A.hQ(A.bT(A.b([B.PV,B.bK,B.PZ,B.bK,B.PC,B.aL,B.Q9,B.ev,A.Eh(A.bA("View My Projects",o,o,o,A.dn(o,o,o,o,o,o,o,o,o,o,o,16,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),new A.Xy(a),A.Ei(o,o,B.aA,o,o,o,o,o,o,o,o,o,B.C7,o,new A.bH(A.cj(8),B.n),o,o,o,o))],n),B.I,B.r,B.u),1)],n),k=t.w
+J(a){var s,r,q,p,o=null,n=t.p,m=A.CK(A.b([new A.c8("Home",new A.Xt(),o),new A.c8("About",new A.Xu(a),o),new A.c8("Skills",new A.Xv(a),o),new A.c8("Projects",new A.Xw(a),o),new A.c8("Contact",new A.Xx(a),o)],n),o,B.Q4),l=A.b([A.hQ(A.bT(A.b([B.PV,B.bK,B.PZ,B.bK,B.PC,B.aL,B.Q9,B.ev,A.Eh(A.bA("View My Projects",o,o,o,A.dn(o,o,B.j,o,o,o,o,o,o,o,o,16,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o),new A.Xy(a),A.Ei(o,o,B.aA,o,o,o,o,o,o,o,o,o,B.C7,o,new A.bH(A.cj(8),B.n),o,o,o,o))],n),B.I,B.r,B.u),1)],n),k=t.w
 if(A.bi(a,o,k).w.a.a>800)l.push(A.dR(o,B.l0,B.q,new A.bZ(B.f2,o,o,o,o,o,B.eO),300,o,o,300))
 l=A.eg(l,B.I,B.r,B.u)
 s=A.Xa(1,B.EO,A.bi(a,o,k).w.a.a>800?3:2,16,16,B.fQ,!0)
