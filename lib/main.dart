@@ -95,7 +95,7 @@ class HomePage extends StatelessWidget {
                           const Text("Flutter Developer",
                               style: TextStyle(
                                   fontSize: 24,
-                                  color: Colors.blueAccent,
+                                  color: Colors.black,
                                   fontWeight: FontWeight.w500)),
                           const SizedBox(height: 24),
                           const Text(
